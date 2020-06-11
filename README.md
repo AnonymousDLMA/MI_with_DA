@@ -46,6 +46,6 @@ python mi_attack.py --sess resnet110_N10 --aug_instances 10 --random_t
 The `--verify_unlearning` flag allows one to print the confidence of unlearning verifycation with given n_{i}. 
 
 ```
-python mi_attack.py --sess resnet110_N10 --aug_instances 10 --random_t --verify_unlearning
+python mi_attack.py --sess resnet110_N10 --aug_instances 10 --verify_unlearning
 ```
 
