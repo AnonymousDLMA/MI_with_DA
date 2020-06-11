@@ -299,7 +299,7 @@ for epoch in range(start_epoch, args.n_epoch):
     train_loss, train_acc = train(epoch)
     test_loss, test_acc = test(epoch)
 
-
+print('computing the outputs of trained model, this may take a while if N is large')
 # evaluate losses and logits
 train_vs_test()
 train_vs_test(True)
